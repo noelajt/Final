@@ -13,7 +13,7 @@ export default function Filter({ onFilterChange }) {
 
   const handleFilter = () => {
     onFilterChange(location); 
-    // setLocation("");
+    setLocation("");
   };
   
 

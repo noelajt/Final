@@ -19,7 +19,7 @@ export default function StartScreen({info}) {
                     data.length === 0 &&
                     <>
                     <ImageWrapper>
-                    <img src="https://i.pinimg.com/originals/77/d0/a7/77d0a7c454e658833800528e748edbe9.png" alt="Illustration of woman meditating" />
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/roommates-playing-video-game-4240568-3649191.png" alt="Illustration of woman meditating" />
                     </ImageWrapper>
                     <Spacer height={20} />
                     </>
