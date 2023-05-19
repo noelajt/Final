@@ -1,23 +1,3 @@
-
-// import { useState } from "react";
-// import styled from "styled-components";
-// import Input from "./Input";
-// import Head from "next/head";
-
-// export default function Filter({ onFilterChange }) {
-//   const [data, setData] = useState([]);
-
-//   const getLocation = (school) => {
-//     setData((data) => [...data, school]);
-//     console.log(school);
-//   };
-
-//   const handleFilter = () => {
-//     onFilterChange(data);
-//     setData([]); 
-//   };
-
-
 import { useState } from "react";
 import styled from "styled-components";
 import Input from "./Input";
@@ -33,7 +13,7 @@ export default function Filter({ onFilterChange }) {
 
   const handleFilter = () => {
     onFilterChange(location); 
-    setLocation("");
+    // setLocation("");
   };
   
 
