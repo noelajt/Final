@@ -15,14 +15,14 @@ export default function StartScreen({info}) {
     return <Wrapper>
             <DecorativeArc>
                 <Title>Find a Roommate</Title>
-                <Spacer height={50} />
+                <Spacer height={80} />
                 {
                     data.length === 0 &&
                     <>
                     <ImageWrapper>
                     <img src="https://cdni.iconscout.com/illustration/premium/thumb/roommates-playing-video-game-4240568-3649191.png" alt="Illustration of woman meditating" />
                     </ImageWrapper>
-                    <Spacer height={50} />
+                    <Spacer height={80} />
                     </>
                 }
                 <Input method={getSchool} label="Enter Your School to Begin"/>
